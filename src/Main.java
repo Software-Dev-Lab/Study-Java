@@ -14,12 +14,5 @@ public class Main {
         System.out.println(ones);
         System.out.println(tens);
         System.out.println(hundreds);
-
-        int a = 10;
-
-        a++;//就是让变量a里面的值 + 1
-        System.out.println(a);//11
-        ++a;//就是让变量a里面的值 + 1
-        System.out.println(a);//12
     }
 }
