@@ -4,15 +4,15 @@ public class test22 {
         //创建对象
         Student s = new Student();
 
-        //使用对象
-        System.out.println(s.name + "," + s.age);
+        //使用set方法给成员变量赋值
+        s.setName("林青霞");
+        s.setAge(30);
 
-        s.name = "林青霞";
-        s.age = 30;
+        s.show();
 
-        System.out.println(s.name + "," + s.age);
+        //使用get方法获取成员变量的值
+        System.out.println(s.getName() + "---" + s.getAge());
+        System.out.println(s.getName() + "," + s.getAge());
 
-        s.study();
-        s.doHomework();
     }
 }
